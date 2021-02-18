@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Mihajlo Smiljanic</title>
+</head>
+<body>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="flex-1" onclick="closeNav()"><i class="fa fa-times"></i></a>
+        <a onclick="closeNav()" href="#header">Hello! 👋</a>
+        <a onclick="closeNav()" href="#about">About</a>
+        <a onclick="closeNav()" href="#projects">Projects</a>
+        <a onclick="closeNav()" href="#contact">Contact</a>
+    </div>
+    <div id="main" class="main">  
+        <div class="button" onclick="openNav()"><i class="fa fa-bars"></i></div>
+        <header id="header" class="page">
+            <h1>Hello! 👋</h1><br>
+            <p> My name is Mihajlo Smiljanic</p>
+            <p>And I am a Web Developer</p>
+        </header>
+        <section id="about" class="page about">
+            <h2>About me</h2>
+            <p>I am a young web developer based in Nice, France with a passion for learning new things and
+                I would love to have the opportunity to work for you. If, by any chance, I am not quite at the level that you need me to be at, I wouldn't mind working for the amount of money that is more apropriate for my level for a certain amount of time.<br /><br/>
+                Out of the office, you could occasionally find me playing chess on <a href="https://lichess.org/@/Mihajlo01" target="_blank">lichess.org</a> and.... coding &#128517;<br/><br/>BTW, please don't mind some of my designs. They are only like that because I like them &#128517;</p>
+        </section>  
+        <section id="projects" class="projects">
+            <h2 style="text-align:center">Projects</h2>
+            
+            <div class="slideshow-container">
+                <p class="media">Front end libraries FCC projects with React</p>
+                <div class="mySlides1">
+                    <div class="numbertext">1 / 5</div>
+                    <img src="images/pomodoro.png" style="width:100%">
+                    <figcaption class="text">
+                        <a href="https://codepen.io/mihajlos473/full/WNoomEa" target="_blank">Demo</a>
+                        <p>A Pomodoro Clock built with React</p>
+                        <a href="https://codepen.io/mihajlos473/pen/WNoomEa" target="_blank">Code</a>
+                    </figcaption>
+                </div>
+
+                <div class="mySlides1">
+                    <div class="numbertext">2 / 5</div>
+                    <img src="images/calculator.png" style="width:100%">
+                    <figcaption class="text">
+                        <a href="https://codepen.io/mihajlos473/full/QWGGgrP" target="_blank">Demo</a>
+                        <p>A Calculator built with React</p>
+                        <a href="https://codepen.io/mihajlos473/pen/QWGGgrP" target="_blank">Code</a>
+                    </figcaption>
+                </div>
+
+                <div class="mySlides1">
+                    <div class="numbertext">3 / 5</div>
+                    <img src="images/Drums.png" style="width:100%">
+                    <figcaption class="text">
+                        <a href="https://codepen.io/mihajlos473/full/PobbZrP" target="_blank">Demo</a>
+                        <p>A Drum Machine built with React</p>
+                        <a href="https://codepen.io/mihajlos473/pen/PobbZrP" target="_blank">Code</a>
+                    </figcaption>
+                </div>
+                <div class="mySlides1">
+                    <div class="numbertext">4 / 5</div>
+                    <img src="images/markdown.png" style="width:100%">
+                    <figcaption class="text">
+                        <a href="https://codepen.io/mihajlos473/full/qBqaMdo" target="_blank">Demo</a>
+                        <p>A Markdown Machine built with React,Bootstrap and Marked</p>
+                        <a href="https://codepen.io/mihajlos473/pen/qBqaMdo" target="_blank">Code</a>
+                    </figcaption>
+                </div>
+                <div class="mySlides1">
+                    <div class="numbertext">5 / 5</div>
+                    <img src="images/quotes.png" style="width:100%">
+                    <figcaption class="text">
+                        <a href="https://codepen.io/mihajlos473/full/rNWMJbX" target="_blank">Demo</a>
+                        <p>A Random Quote Machine built with React and SCSS</p>
+                        <a href="https://codepen.io/mihajlos473/pen/rNWMJbX" target="_blank">Code</a>
+                    </figcaption>
+                </div>
+                <div class="flex">
+                    <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+                </div>
+            </div>
+            
+            <div class="slideshow-container">
+                <p class="media">Responsive web design FCC projects</p>
+                <div class="mySlides2">
+                    <div class="numbertext">1 / 4</div>
+                    <img src="images/my_product_landing_page.png" style="width:100%">
+                    <figcaption class="text">
+                        <a href="https://mihajlos473.github.io/my-product-landing-page/" target="_blank">Demo</a>
+                        <a href="https://github.com/Mihajlos473/my-product-landing-page" target="_blank">Code</a>
+                    </figcaption>
+                </div>
+
+                <div class="mySlides2">
+                    <div class="numbertext">2 / 4</div>
+                    <img src="images/My_survey_form.png" style="width:100%">
+                    <figcaption class="text">
+                        <a href="https://mihajlos473.github.io/my-survey-form/" target="_blank">Demo</a>
+                        <a href="https://github.com/Mihajlos473/my-survey-form" target="_blank">Code</a>
+                    </figcaption>
+                </div>
+
+                <div class="mySlides2">
+                    <div class="numbertext">3 / 4</div>
+                    <img src="images/technical documentation.png" style="width:100%">
+                    <figcaption class="text">
+                        <a href="https://mihajlos473.github.io/my-technical-documentation-page/" target="_blank">Demo</a>
+                        <a href="https://github.com/Mihajlos473/my-technical-documentation-page" target="_blank">Code</a>
+                    </figcaption>
+                </div>
+                <div class="mySlides2">
+                    <div class="numbertext">4 / 4</div>
+                    <img src="images/Magnus tribute.png" style="width:100%">
+                    <figcaption class="text">
+                        <a href="https://mihajlos473.github.io/mihajlos-magnus-carlsen-tribute-page/" target="_blank">Demo</a>
+                        <a href="https://github.com/Mihajlos473/mihajlos-magnus-carlsen-tribute-page/" target="_blank">Code</a>
+                    </figcaption>
+                </div>
+                <div class="flex">
+                    <a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
+                </div>
+            </div>
+
+            <div class="slideshow-container">
+                <p class="media">My other projects</p>
+            
+                <div class="mySlides fade">
+                    <div class="numbertext">1 / 3</div>
+                    <video style="width:100%" controls>
+                        <source src="videos\Video_Movies.mp4" type=video/mp4>
+                    </video>
+                    <div class="text column">
+                        <p>A Movie web app built with Django</p>
+                        <a href="https://github.com/Mihajlos473/Movie-Django-Web-App" target="_blank">Code</a>
+                    </div>
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">2 / 3</div>
+                    <video style="width:100%" controls>
+                        <source src="videos\Video_To_Do _App.mp4" type=video/mp4>
+                    </video>
+                    <div class="text column">
+                        <p>A To-do list app built with Flask</p>
+                        <a href="https://github.com/Mihajlos473/To-Do-Flask-App" target="_blank">Code</a>
+                    </div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">3 / 3</div>
+                    <img src="images/tic_tac_toe.png" style="width:100%">
+                    <div class="text measurements">
+                        <a href="https://codepen.io/mihajlos473/full/mdORjOW" target="_blank">Demo</a>
+                        <p>A Tic Tac Toe app built with JavaScript</p>
+                        <a href="https://codepen.io/mihajlos473/pen/mdORjOW" target="_blank">Code</a>
+                    </div>
+                </div>
+                <div class="flex">
+                    <a class="prev" onclick="Slides(-1)">&#10094;</a>
+                    <a class="next" onclick="Slides(1)">&#10095;</a>
+                </div>
+            </div>
+            <div class="dotsss" style="text-align:center">
+                <span class="dot" onclick="currentSlide(1, 3)"></span>
+                <span class="dot" onclick="currentSlide(2, 3)"></span>
+                <span class="dot" onclick="currentSlide(3, 3)"></span>
+            </div>
+            
+        </section>
+        
+        <section id="contact" class="contact">
+            <div class="social">
+                <h2>Social Media</h2>
+                <p>You can find me on</p>
+                <ul class="contact-ul">
+                    <li><a href="https://github.com/Mihajlos473" target="_blank"><i class="fa fa-github"></i></a></li>
+                    <li><a href="https://www.freecodecamp.org/mihajlos" target="_blank"><i class="fa fa-free-code-camp"></i></a></li>
+                    <li><a href="https://codepen.io/mihajlos473" target="_blank"><i class="fa fa-codepen"></i></a></li>
+                    <li><a href="www.linkedin.com/in/mihajlo-smiljanic" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                    <li><a href="https://wa.me/33664788159" target="_blank"><i class="fa fa-whatsapp"></i></a></li>
+                </ul>
+            </div>
+            <div class="phone">
+                <p>Contact phone: +33664788159</p>
+                <p>Get in touch via <a style="color:white" target="_blank" href="mailto:mihajlosmiljanic.ms@gmail.com">E-mail</a></p>
+                <p>Text me on <a style="color:white" target="_blank" href="https://wa.me/33664788159">WhatsApp</a></p>
+            </div>
+        </section>
+        <footer><i class="fa fa-copyright"></i> Mihajlo Smiljanic</footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
